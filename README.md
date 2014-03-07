@@ -10,10 +10,12 @@ Goals:
 Essentially this code establishes socket (UDP) connection with another device (BASE) and waits for commands. The commands are either of the form of directives or queries. An example directive is setting the PWM values of the motors. An example query is getting IR sensor values.
 
 ## Installation
-Clone the repo into home directory:
+Work ongoing.
+~~Clone the repo into home directory:~~
 
-	cd ~
-	git clone https://bitbucket.org/rowoflo/quickbot_bbb.git
+~~cd~~
+
+~~git clone https://bitbucket.org/rowoflo/quickbot_bbb.git~~
 
 ## Running
 Check IP address of BASE and ROBOT (run command on both systems and look for IP address):
