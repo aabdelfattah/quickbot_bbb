@@ -1,5 +1,8 @@
-# QuickBot_BBB
-This is the code that runs on the BeagleBone Black to control the QuickBot.
+# QuickBot_RPi
+This project aims to port the QuickBot_BBB to Raspberry PI 
+Goals:
+1- Keep the interface with MATLAB intact (The commands over UDP part).
+2- Modify the pin assignments and sensors capture parts to be compatible with RPi.
 
 ## Overview
 Essentially this code establishes socket (UDP) connection with another device (BASE) and waits for commands. The commands are either of the form of directives or queries. An example directive is setting the PWM values of the motors. An example query is getting IR sensor values.
