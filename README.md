@@ -1,7 +1,9 @@
 # QuickBot_RPi
 This project aims to port the QuickBot_BBB to Raspberry PI 
 Goals:
+
 1- Keep the interface with MATLAB intact (The commands over UDP part).
+
 2- Modify the pin assignments and sensors capture parts to be compatible with RPi.
 
 ## Overview
